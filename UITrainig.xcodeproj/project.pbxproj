@@ -13,10 +13,11 @@
 		00D45D1A29BC44AB00544324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D45D1829BC44AB00544324 /* Main.storyboard */; };
 		00D45D1C29BC44AB00544324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D45D1B29BC44AB00544324 /* Assets.xcassets */; };
 		00D45D1F29BC44AB00544324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D45D1D29BC44AB00544324 /* LaunchScreen.storyboard */; };
+		00D45D2729BC48E400544324 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D45D2629BC48E400544324 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00D45D0F29BC44AB00544324 /* UITrainig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITrainig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D45D0F29BC44AB00544324 /* UITrainig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UITrainig.app; path = "/Users/kuwanoyusuke/Documents/UITrainig/build/Debug-iphoneos/UITrainig.app"; sourceTree = "<absolute>"; };
 		00D45D1229BC44AB00544324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D45D1429BC44AB00544324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00D45D1629BC44AB00544324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		00D45D1B29BC44AB00544324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D45D1E29BC44AB00544324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00D45D2029BC44AB00544324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D45D2629BC48E400544324 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,16 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				00D45D1129BC44AB00544324 /* UITrainig */,
-				00D45D1029BC44AB00544324 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		00D45D1029BC44AB00544324 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00D45D0F29BC44AB00544324 /* UITrainig.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		00D45D1129BC44AB00544324 /* UITrainig */ = {
@@ -59,6 +52,7 @@
 				00D45D1229BC44AB00544324 /* AppDelegate.swift */,
 				00D45D1429BC44AB00544324 /* SceneDelegate.swift */,
 				00D45D1629BC44AB00544324 /* ViewController.swift */,
+				00D45D2629BC48E400544324 /* SecondViewController.swift */,
 				00D45D1829BC44AB00544324 /* Main.storyboard */,
 				00D45D1B29BC44AB00544324 /* Assets.xcassets */,
 				00D45D1D29BC44AB00544324 /* LaunchScreen.storyboard */,
@@ -111,7 +105,7 @@
 				Base,
 			);
 			mainGroup = 00D45D0629BC44AB00544324;
-			productRefGroup = 00D45D1029BC44AB00544324 /* Products */;
+			productRefGroup = 00D45D0629BC44AB00544324;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -138,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D45D2729BC48E400544324 /* SecondViewController.swift in Sources */,
 				00D45D1729BC44AB00544324 /* ViewController.swift in Sources */,
 				00D45D1329BC44AB00544324 /* AppDelegate.swift in Sources */,
 				00D45D1529BC44AB00544324 /* SceneDelegate.swift in Sources */,
